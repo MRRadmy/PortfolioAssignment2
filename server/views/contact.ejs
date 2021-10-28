@@ -1,0 +1,89 @@
+<!-- Created by Mahpara Rafia Radmy - 301176893 - 11 October, 2021 -->
+
+<% include partials/header.ejs %>
+
+<!-- Heading -->
+<b><h1 class="contactHeading"><%= title %></h1></b>
+
+
+<form action="mailto:mradmy@my.centennialcollege.ca" method="post">
+  <table class="contactTable">
+
+    <!-- Fields -->
+    <tr>
+      <td class="fieldLabel">First Name:</td>
+      <td><input name="name" type="text"></td>
+    </tr>
+  
+    <tr>
+      <td class="fieldLabel">Last Name:</td>
+      <td><input name="lastname" type="text"></td>
+    </tr>
+    
+    <tr>
+      <td class="fieldLabel">Phone Number:</td>
+      <td><input name="number" type="text"></td>
+    </tr>
+    
+    <tr>
+      <td class="fieldLabel">Email Address:</td>
+      <td><input name="email" type="text"></td>
+    </tr>
+    
+    <tr>
+      <td class="fieldLabel">Message:</td>
+    <td>
+      <textarea cols="20" name="TextArea1" rows="2"></textarea>
+    </td>
+    </tr>
+    
+    <tr>
+      <td class="fieldLabel">
+        <input name="submit" tabindex="71" type="submit" value="Send">
+      </td>
+      <td><input name="Reset1" tabindex="73" type="reset" value="Reload"></td>
+    </tr>
+  
+  </table>
+</form>
+
+<!-- Contact info -->
+<div class="contactinfo">
+  
+  <!-- Addrress -->
+  <div class="info">
+    <div class="icon">
+      <i class="fas fa-map-marked-alt"></i>
+    </div>
+
+    <h6>Address:</h6>
+    <p>
+       7 Arnott St,
+       Scarborough, ON,
+       M1K 4B5 
+       </p>
+  </div>
+
+  <!-- Email -->
+  <div class="info">
+    <div class="icon">
+        <i class="fas fa-envelope-square"></i>
+    </div>
+    <h6>Email Address:</h6>
+    <p><a href="mailto:mradmy@my.centennialcollege.ca">mradmy@my.centennialcollege.ca</a></p>
+  </div>
+  <!-- Phone Number -->
+  <div class="info">
+    <div class="icon">
+      <i class="fas fa-phone-alt"></i>
+    </div>
+
+    <h6>Number:</h6>
+    <p>(+1) 678 033 9998<br>
+      
+    </p>
+  </div>  
+
+</div> 
+
+<% include partials/footer.ejs %>

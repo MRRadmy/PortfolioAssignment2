@@ -1,0 +1,164 @@
+/* File: Created by: Mahpara Rafia Radmy - Student Number: 301176893 - Created on: October 23, 2021 */
+/* home */
+.mission
+{
+  font-family: 'Times New Roman', Times, serif;
+  text-align:center;
+  justify-content:center;
+  max-width:900px;
+  padding-top:50px;
+  margin:auto;
+  
+}
+
+/* Projects */
+.projects {
+  font-family: 'Times New Roman', Times, serif;
+  display:flex;
+  justify-content:center;
+  list-style:none;
+  margin:auto;
+  
+}
+
+ 
+
+.projects {
+  padding:35px;
+}
+.pic {
+  width: 150px;
+  height: 200Spx;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+/* Services */
+.services 
+{
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  list-style:none;
+  margin:auto;
+}
+#right {
+  width: 400px;
+  height: 150px;
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: black;
+  object-fit: none;
+  object-position: right top;
+  }
+
+.service {
+  padding:35px;
+}
+.logos {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+#logo {
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+}
+#serviceTitle {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+
+}
+/* Contact Me */
+.contactHeading {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  padding-top: 50pxs;
+}
+.contactTable {
+  margin: auto;
+}
+.fieldLabel {
+  font-family: 'Times New Roman', Times, serif;
+	text-align: right;
+  padding: 10px;
+  font-weight: bold;
+}
+.contactinfo {
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.info {
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px;
+  text-align: center;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+}
+/* about me */
+.about-me {
+  font-family: 'Times New Roman', Times, serif;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.about{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+#aboutlist{
+  padding-top: 50px;
+  padding-right: 100px;
+}
+.title{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  padding-top: 20px;
+}
+.photo {
+   float: right;
+   padding-right: 70px;
+}
+
+#resumelink {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: bold;
+  text-emphasis-color: rgb(12, 12, 48);
+}
+
+/* footer */
+  .footer {
+    font-family: 'Times New Roman', Times, serif;
+    background: #113150;
+    color: white;
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    white-space: initial;
+}
+
+.footer a { 
+    color: white;
+}
+
+.logo-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  padding: 0;
+}
+
+.logo-item {
+  margin: 10px;
+}
+
+.logo-link {
+  padding: 10px;
+}
